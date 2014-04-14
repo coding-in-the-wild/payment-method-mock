@@ -1,5 +1,5 @@
 var test = require('tap').test
-var Mock = require('../index.js')
+var Mock = require('payment-method-mock')
 
 test('id is a string and correct', function(t) {
 	var mock = new Mock()
